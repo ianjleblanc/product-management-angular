@@ -48,7 +48,7 @@ export class ProductListComponent implements OnInit, OnDestroy {
         this.filteredProducts = this.products;   
       }, 
       error: err => this.errorMessage = err
-    });
+    }); 
   }
 
   ngOnDestroy(): void {
